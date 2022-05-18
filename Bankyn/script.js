@@ -6,11 +6,14 @@
 
 /////////////////////////////////////////////////
 // Data
-
+window.onload = () =>
+  alert(
+    `Try these combinations:  User: 'nu' PIN: 1111 OR User: 'hh' PIN: 2222`
+  );
 // DIFFERENT DATA! Contains movement dates, currency and locale
 
 const account1 = {
-  owner: 'Yaseen Nur',
+  owner: 'Naruto Uzumaki',
   movements: [200, 455.23, -306.5, 25000, -642.21, -133.9, 79.97, 1300],
   interestRate: 1.2, // %
   pin: 1111,
@@ -26,11 +29,11 @@ const account1 = {
     '2021-09-25T12:01:20.894Z',
   ],
   currency: 'EUR',
-  locale: 'pt-PT', // de-DE
+  locale: 'en-US', // de-DE
 };
 
 const account2 = {
-  owner: 'Anny Lodi',
+  owner: 'Hinata Hyuga',
   movements: [5000, 3400, -150, -790, -3210, -1000, 8500, -30],
   interestRate: 1.5,
   pin: 2222,
