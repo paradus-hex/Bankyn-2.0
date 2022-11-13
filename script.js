@@ -5,12 +5,7 @@
 // BANKIST APP
 
 /////////////////////////////////////////////////
-// Data
-// window.onload = () =>
-//   alert(
-//     `Try these combinations:  User: 'nu' PIN: 1111 OR User: 'hh' PIN: 2222`
-//   );
-// DIFFERENT DATA! Contains movement dates, currency and locale
+
 
 const account1 = {
   owner: 'Naruto Uzumaki',
